@@ -20,11 +20,17 @@ body {
   background-color: var(--primary-color);
 }
 
+.minion {
+  width: 12rem;
+  display: block;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "MuseoModerno";
   color: var(--secondary-color);
   font-size: 3rem;
-  text-shadow: 0 0 3px black, 0 0 3px black;
+  text-shadow: 0 0 1.4px black, 0 0 1.4px black;
   text-align: center;
 }
 
@@ -96,7 +102,6 @@ footer {
 footer p {
   color: var(--para-color);
   font-family: "MuseoModerno";
-  /* font-family: "Poppins"; */
   font-size: 1rem;
   letter-spacing: 0.08rem;
 }
